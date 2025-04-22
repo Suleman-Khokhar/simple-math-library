@@ -13,3 +13,10 @@ def div(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def factoral(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact*=i
+    return fact
+    
